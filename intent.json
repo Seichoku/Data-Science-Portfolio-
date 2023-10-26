@@ -1,0 +1,350 @@
+{"intents": [
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "whats up", "good morning", "good afternoon", "good evening", "hola", "howdy"],
+    "responses":["Hello!", "Good day!", "Hey!", "Hi!"],
+    "context":  [""]
+    },
+  
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+    "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+    "context": [""]
+    },
+  
+    {"tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [""]
+    },
+    {"tag": "creator",
+      "patterns": ["who created Emaj", "who are your creators" ],
+      "responses": ["Emaj was created by:\nEmeka Ichoku\nJoy Mayaki\nAnthony Nwodo\nJanet Osase"],
+      "context": [""]
+    },
+      {"tag": "abuse",
+      "patterns": ["you are stupid", "You are mad", "You are dumb", "Fuck off" ],
+      "responses": ["Watch your language as such words are not allowed here"],
+      "context": [""]
+    },
+    {"tag": "no_answer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+      "context": [""]
+    },
+    {"tag": "options",
+      "patterns": ["How can you help me?", "What help do you provide?", "How can you be helpful?", "What do you do" ],
+      "responses": ["I can guide you through frequently asked question on the covid 19 vaccine","Do you have unanswered questions on the covid 19 Vaccine? maybe i can answer your question"],
+      "context": [""]
+    },
+  
+    {"tag": "about_covid_vaccine",
+      "patterns": ["is there a vaccine against covid-19", "tell me about the covid vaccine", "what do you know about the vaccine" ],
+      "responses": ["As of March 2021, some COVID-19 vaccines have been authorized in some countries. WHO has also granted authorization to the Pfizer/BioNTech vaccine, to two versions of the AstraZeneca/Oxford vaccine - SKBio and the Serum Institute of India-, and the Janssen vaccine. Other vaccines continue to be tested and studied."],
+      "context": [""]
+          },
+  
+    {"tag": "types_of_vaccine",
+    "patterns":["what are the types of vaccines", "what are the available vaccine", "how many vaccines do we have", "types"],
+    "responses":["Currently, three vaccines are authorized and recommended in Nigeria to prevent COVID-19:\nPfizer BioNtech,\nMorderna,\nJohnson and Johnson / Janssen"],
+      "context": [""]
+    },
+  
+    {"tag": "dose_of_vaccine",
+    "patterns":["How many dose of COVID-19 will I need to get?", "How many times will i be vaccinated", "how many shots of the vaccine will i need to take", "covid-19 dosage"],
+    "responses":["The number of doses needed depends on which vaccine you receive. To get the most protection:\n Two Pfizer-BioNTech vaccine doses should be given 3 weeks (21 days) apart.\n Two Moderna vaccine doses should be given 1 month (28 days) apart.\n Johnson & Johnsons Jansen (J&J/Janssen) COVID-19 vaccine requires only one dose.\n If you receive a vaccine that requires two doses, you should get your second shot as close to the recommended interval as possible.\n However, your second dose may be given up to 6 weeks (42 days) after the first dose, if necessary.\n You should not get the second dose earlier than the recommended interval.\n"],
+      "context": [""]
+    },
+  {"tag": "vaccine_availability",
+   "patterns": ["Is there a vaccine against COVID-19?", "which covid-19 vaccines are available?", "Which vaccines have been approved and where?", "what are my choices of covid-19?", "How many types of covid-19 vaccine is available?"],
+   "responses": ["As of March 2021, some COVID-19 vaccines have been authorized in some countries. WHO has also granted authorization to the Pfizer/BioNTech vaccine, to two versions of the AstraZeneca/Oxford vaccine - SKBio and the Serum Institute of India-, and the Janssen vaccine. Other vaccines continue to be tested and studied."],
+   "context": [""]
+   },
+  
+   {"tag": "differences_vaccines",
+   "patterns": ["What are the differences among the vaccines currently tested?", "How do the various covid-19 vaccines differ?"],
+   "responses": ["Among the COVID-19 vaccines already approved or still in development, we can distinguish different types according to the technology they use. On the one hand, the \"classic vaccines\" use a whole inactivated virus or viral proteins. On the other hand, there are those using more innovative technologies to introduce a gene sequence with the instructions so our body can produce a given viral protein."],
+   "context": [""]
+   },
+  
+  {"tag": "race_and_ethnicity",
+   "patterns": ["Did clinical trial participation include racial or ethnic groups at greater risk from COVID-19?"],
+   "responses": ["Yes. Overall, among the total participants who received either Pfizer-BioNTech COVID-19 Vaccine or placebo, 9.1 percent were Black or African American, 28.0 percent were Hispanic/Latino, 4.3 percent were Asian, and 0.5 percent were American Indian/Alaska native."],
+   "context": [""]
+  },
+  
+  {"tag": "safety_and_reliability",
+   "patterns": ["Can we trust vaccines that have been developed so quickly?","Is it safe to be one of the first people to be vaccinated?"],
+   "responses": ["Vaccines against COVID-19 have been developed in record time thanks to important technological advances and experience gained with the SARS and MERS coronaviruses. However, this does not imply that the process was not rigorous and that the usual steps were not followed."],
+   "context": [""]
+  },
+  
+  {"tag": "effectiveness",
+   "patterns": ["Are COVID-19 vaccines effective?", "how effective are the vaccines"],
+   "responses": ["The COVID-19 vaccines that have been authorized for use in some countries have provided information, through their clinical trials, on how effective they are at preventing the disease. National regulatory agencies then analyze this data to authorize them. The effectiveness of the vaccines continues to be closely monitored even after they have been introduced in a country. Only those vaccines that have proven to be effective at preventing the disease will be approved to be used in the population."],
+   "context": [""]
+  },
+  
+  {"tag": "ingredients_and_constituent_elements",
+   "patterns": ["What are the ingredients in COVID-19 vaccines?", "What are covid-19 vaccines made up of?", "what are the constituents of covid-19 vaccines?"],
+   "responses": ["The FDA has posted detailed information on its website, including a full list of ingredients for the Moderna, Pfizer and Johnson & Johnson vaccines."],
+   "context": [""]
+   },
+  
+  {"tag": "best_vaccine",
+   "patterns": ["Which vaccine should I get?", "Which covid-19 vaccine is the best?"],
+   "responses": ["PAHO encourages people to get vaccinated against COVID-19 with whichever vaccine is offered to them by their national health authorities when they are eligible."],
+   "context": [""]
+   },
+  
+  {"tag": "pfizer_biontech_vaccine_efficacy",
+   "patterns": ["What is the efficacy of the Pfizer / BioNTech vaccine?", "How effective is the Pfizer / BioNTech vaccine?"],
+   "responses": ["According to the clinical trial results that led to its approval, the efficacy of the Pfizer / BioNTech vaccine (in terms of protecting against symptomatic disease) is 95%. These clinical trials were conducted in controlled conditions (which is why we speak of efficacy and not effectiveness) and when the original viral variant was predominant. Results from a study in Israel (with more than 600,000 people vaccinated) confirm that the vaccine effectiveness (i.e. in real-life conditions) is very high (94%) in people who have received both doses, even against the B1.1.7 variant (which was first identified in Great Britain)."],
+   "context": [""]
+   },
+  
+  {"tag": "moderna_vaccine_efficacy",
+   "patterns": ["What is the efficacy of the Moderna vaccine?", "How effective is the Moderna vaccine?"],
+   "responses": ["According to the clinical trial results that led to its approval, the efficacy of the Moderna vaccine (in terms of protecting against symptomatic disease) is 94%. These clinical trials were conducted in controlled conditions (which is why we speak of efficacy and not effectiveness) and when the original viral variant was predominant."],
+   "context": [""]
+   },
+  
+  {"tag": "oxford_astraZeneca_vaccine_efficacy",
+   "patterns": ["What is the efficacy of the Oxford / AstraZeneca vaccine?", "How effective is the Oxford / AstraZeneca vaccine?"],
+   "responses": ["In the different clinical trials conducted, this vaccine has been shown to protect against symptomatic infections with efficacy ranging between 60% and 90%"],
+   "context": [""]
+   },
+  
+  {"tag": "janssen_vaccine_efficacy",
+   "patterns": ["What is the efficacy of the Janssen (Johnson and Johnson) vaccine?", "How effective is the Janssen (Johnson and Johnson) vaccine?"],
+   "responses": ["The studies performed in the U.K. show good protection (around 75%) after 21 days of the first shot. However, it is not clear how long this protection would last if only one dose were given (in all the studies, a second dose was given a maximum of 12 weeks after the first). It is also known that the second dose is necessary to increase the titer of virus-specific antibodies. Therefore, one single dose will very likely protect less efficiently and for a shorter period of time."],
+   "context": [""]
+   },
+  
+  {"tag": "pfizer_moderna_janssen_vaccines_difference",
+   "patterns": ["What is the difference between the Pfizer-BioNTech, Moderna and Johnson & Johnson vaccines?"],
+   "responses": ["The Moderna and Pfizer-BioNTech are mRNA vaccines that use tiny parts called messenger RNA (mRNA) carried in very tiny lipid particles. The Moderna and Pfizer-BioNTech vaccines differ in the way the mRNA is built or the way the lipids are used. The two vaccines are also stored in different ways, but each requires two doses. The Johnson & Johnson vaccine is a vector vaccine, which places genetic material from the COVID-19 virus inside a weakened version of the adenovirus that cannot cause illness. Adenoviruses are very common viruses that usually cause colds. The Johnson & Johnson vaccine requires a single dose."],
+   "context": [""]
+   },
+  
+  {"tag": "immunity_to_new_variants",
+   "patterns": ["Do the COVID vaccines protect against new variants?", "can one get immunity to new covid-19 variants through the available vaccines?"],
+   "responses": ["Health officials are tracking the spread of a number of variants of the coronavirus across the U.S., including a much more contagious version first identified in South Africa, another that's rampant in the U.K., and one linked to travellers from Brazil."],
+   "context": [""]
+   },
+  
+  {"tag": "choice_of_vaccine",
+   "patterns": ["Can I choose which COVID-19 vaccine I get?"],
+   "responses": ["It would be best if you got any COVID-19 vaccine that is available when you are eligible. Do not wait for a specific brand. All currently authorized and recommended COVID-19 vaccines are safe and effective, and CDC does not recommend one vaccine over another."],
+   "context": [""]
+   },
+  
+  {"tag": "regional_availability",
+   "patterns": ["When will vaccines against COVID-19 be available in my country?", "Is covid-19 vaccines available in my country?"],
+   "responses": ["While some countries in our Region have granted Emergency authorization to certain vaccines, COVID-19 vaccines are still unavailable in most countries."],
+   "context": [""]
+   },
+  
+  {"tag": "combining_vaccines",
+   "patterns": ["Is it possible to combine two different vaccines?", "can I combine two different covid-19 vaccines?"],
+   "responses": ["It is a possibility that is being currently studied (for example, the U.K. launched a clinical trial that combines one dose of the AstraZeneca vaccine and one of the Pfizer vaccine, in a different order and with different time intervals). However, there are no available results yet."],
+   "context": [""]
+   },
+  
+  {"tag": "regional_vaccine_variety",
+   "patterns": ["Can different COVID-19 vaccines be used in the same country?", "Can covid-19 vaccines from two or more different manufacturers be administered in a country?"],
+   "responses": ["Yes, it is possible. A country may need to use vaccines from different platforms or manufacturers. For this reason, PAHO/WHO has recommended strengthening the immunization registration systems, as this is key to keep track of the type of vaccine received by each person and to follow up on when the second dose is administered. PAHO also suggests that everyone who is vaccinated keeps their vaccination card."],
+   "context": [""]
+   },
+  
+  {"tag": "vaccine_accessibility",
+   "patterns": ["How do I get a vaccine?", "How will individuals access COVID-19 vaccines?"],
+   "responses": ["As vaccines against COVID-19 are available, individuals will be able to access them through their countries' National Immunization Programs. Check your state health department or local pharmacy's website."],
+   "context": [""]
+   },
+  
+  {"tag": "mandatory_vaccination",
+   "patterns": ["Will the COVID vaccine be mandatory?", "is the covid vaccine mandatory?", "Does one have to be vaccinated?"],
+   "responses": ["The COVID-19 vaccine is not mandatory at this time. Once we know more about the vaccine, it’s possible that it will become mandatory. We need to know much more about how long the vaccine protects people and what may happen over time."],
+   "context": [""]
+   },
+  
+  {"tag": "protected_group",
+   "patterns": ["Whom does the COVID vaccine protect?", "what age group has the highest protection rate?"],
+   "responses": ["The studies of vaccines included people ages 18 through 85 years old. It worked well for all ages. Studies are needed for people younger than 18 and pregnant women. More studies are going on or being planned."],
+   "context": [""]
+   },
+  
+  {"tag": "availabilty_for_children",
+   "patterns": ["Will COVID-19 vaccines be available for young children?", "Is there a covid vaccine for children?", "Do children get covid-19 vaccination?"],
+   "responses": ["At first, COVID-19 vaccines may not be recommended for children, as only non-pregnant adults participate in clinical trials. As more studies are completed, the COVID-19 vaccine may be available for children."],
+   "context": [""]
+   },
+  
+  {"tag": "surveillance",
+   "patterns": ["Are commercialized vaccines subject to surveillance mechanisms?", "Are the effectiveness and efficacy of vaccines monitored after administration?"],
+   "responses": ["Of course. This is what we call phase IV trials. In other words, from the moment vaccines are authorized to be distributed and jump to the market, their safety and effectiveness are continuously assessed. It is a phase as strict as the previous that, besides monitoring the current vaccines, it will improve the development of future vaccines."],
+   "context": [""]
+   },
+  
+  {"tag": "infection_from_vaccine",
+   "patterns": ["Can someone get COVID from the vaccines?", "Can someone be infected with covid-19 by the vaccines?"],
+   "responses": ["It is impossible for the Pfizer-BioNTech, Moderna or Johnson & Johnson vaccines to give you COVID-19. None of the vaccines contain any live virus. Vaccines prime your immune system to recognize and fight off a disease, but they don’t actually cause an infection."],
+   "context": [""]
+   },
+  
+  {"tag": "vaccine_immunity_period",
+   "patterns": ["How long will vaccine-induced immunity last?", "How long is protection from the COVID-19 vaccine?"],
+   "responses": ["It is still too early to give a rigorous answer to this question. Efficacy data from phase III clinical trials of each vaccine are beginning to be released. Later, it will be necessary to do a follow-up to evaluate the effectiveness of the different vaccines over time."],
+   "context": [""]
+   },
+  {"tag":"vaccine_payment",
+      "patterns": ["Who is paying for the COVID-19 vaccines?", "Is covid 19 vaccine free in nigeria?"],
+      "responses": ["The federal government is providing the vaccine free of charge to all people living in the country, regardless of their immigration or health insurance status."],
+      "context": [""]
+    },
+  
+    {"tag":"vaccine_annual_requirement",
+      "patterns": ["Will COVID-19 vaccination be required every year?"],
+      "responses": ["Research has continued to determine the duration of immunity (protection) provided by the COVID-19 vaccines that are available. Additionally, the protection of the vaccines against the new SARS-CoV-2 variants continues to study. We will answer this and other questions as we have more studies in the vaccinated populations that will determine whether annual vaccinations or vaccinations at different periods will be necessary.?"],
+      "context": [""]
+    },
+  
+    {"tag":"vaccine_dosage",
+      "patterns": ["How many doses of COVID-19 will I need to get?"],
+      "responses": ["The number of doses needed depends on which vaccine you receive. To get the most protection:\nTwo Pfizer-BioNTech vaccine doses should be given 3 weeks (21 days) apart.\nTwo Moderna vaccine doses should be given 1 month (28 days) apart.\nJohnson & Johnsons Jansen (J&J/Janssen) COVID-19 vaccine requires only one dose."],
+      "context": [""]
+    },
+  
+    {"tag":"side_effects",
+      "patterns": ["What are the common side effects after getting a COVID-19 Vaccine?", "What are the risks of COVID-19 vaccines?"],
+      "responses": ["After getting vaccinated, you might have some side effects, which are normal signs that your body is building protection. Common side effects are pain, redness, and swelling in the arm where you received the shot and tiredness, headache, muscle pain, chills, fever, and nausea throughout the rest of the body. These side effects could affect your ability to do daily activities, but they should go away in a few days."],
+      "context": [""]
+    },
+  
+    {"tag":"second_dose_side_effect",
+      "patterns": ["Are the side effects stronger after the second dose?"],
+      "responses": ["For the mRNA-based vaccines, the side effects seem to be stronger after the second dose. For the AstraZeneca vaccine, they seem to be stronger after the first dose."],
+      "context": [""]
+    },
+  
+    {"tag":"elderly_people_side_effect",
+      "patterns": ["Are side effects more frequent among elderly people?"],
+      "responses": ["No, on the contrary. Elderly people have a less reactive immune system and therefore have less side effects."],
+      "context": [""]
+    },
+  
+    {"tag":"side_effect_duration",
+      "patterns": ["How long do side effects take to appear?", "How long do they last?"],
+      "responses": ["The side effects normally appear the same day or the day after the shot and can last a couple of days. The rare cases of anaphylaxis usually occur within the first 15 to 30 minutes after the shot and are treated with the administration of epinephrine."],
+      "context": [""]
+    },
+  
+    {"tag":"minimized_side_effect",
+      "patterns": ["Can the side effects be minimized?"],
+      "responses": ["The CDC offers some advice on ways to combat vaccine side effects: After vaccination, use or lightly exercise the arm that got the shot. Take Tylenol or Motrin for any pain you may have, but only after you've gotten the shot, not before. The CDC also recommends drinking plenty of liquids after you get either the first or second dose. If redness or tenderness increases at the vaccination site in the days following the shot, the CDC recommends that you call your doctor."],
+      "context": [""]
+    },
+  
+    {"tag":"report_side_effect",
+      "patterns": ["How do I report a problem or possible side effect to a COVID-19 vaccine?"],
+      "responses": ["The CDC and FDA encourage the public to report possible side effects (called adverse events) to the Vaccine Adverse Event Reporting System (VAERS). This national system collects these data to look for adverse events that are unexpected, appear to happen more often than expected, or have unusual patterns of occurrence. Reports to VAERS help the CDC monitor the safety of vaccines. Health care professionals will be required to report certain adverse events following vaccination to VAERS."],
+      "context": [""]
+    },
+  
+    {"tag":"vaccination_after_COVID-19_recovery",
+      "patterns": ["If I have already had COVID-19 and recovered, do I still need to get vaccinated with a COVID-19 vaccine?"],
+      "responses": ["Yes, you should be vaccinated regardless of whether you already had COVID-19. That's because experts do not yet know how long you are protected from getting sick again after recovering from COVID-19. Even if you have already recovered from COVID-19, it is possible, although rare that you could be infected with the virus that causes COVID-19 again."],
+      "context": [""]
+    },
+  
+    {"tag":"immunity_after_vaccination",
+      "patterns": ["Do the vaccines prevent transmission of the virus to others"],
+      "responses": ["Many commentaries on the results of the original vaccine clinical trials cite a lack of information on asymptomatic infection as a limitation in our knowledge about the vaccines’ effectiveness, specifically related to the spread of the disease. Indeed, this is a theoretical concern, since up to 40% of people who get infected with SARS-CoV-2 have no symptoms but may still transmit the virus to others."],
+      "context": [""]
+    },
+  
+    {"tag":"vaccination_while_sick",
+      "patterns": ["Can I get vaccinated against COVID-19 while I am currently sick with COVID-19?"],
+      "responses": ["No. People with COVID-19 who have symptoms should wait to be vaccinated until they have recovered from their illness and have met the criteria for discontinuing isolation; those without symptoms should also wait until they meet the criteria before getting vaccinated."],
+      "context": [""]
+    },
+  
+    {"tag":"mask_after_vaccination",
+      "patterns": ["Do I need to wear a mask and avoid close contact with others if I have gotten 2 doses of the vaccine?"],
+      "responses": ["Fully vaccinated people should continue to wear masks and stay 6 feet apart from other people in other settings, like when they are in public or visiting with unvaccinated people from multiple households."],
+      "context": [""]
+    },
+  
+    {"tag":"vaccination_with_underlining_condition",
+      "patterns": ["If I have an underlining condition, can I get a COVID-19 vaccine?"],
+      "responses": ["People with underlying medical conditions can receive a COVID-19 vaccine as long as they have not had an immediate or severe allergic reaction to a COVID-19 vaccine or to any of the ingredients in the vaccine."],
+      "context": [""]
+    },
+  
+    {"tag":"vaccination_with_allergies",
+      "patterns": ["Should i get the COVID-19 vaccine if I have allergies?", "I have allergies"],
+      "responses": ["CDC recommends that people with a history of severe allergic reactions not related to vaccines or injectable medications—such as food, pet, venom, environmental or latex allergies—get vaccinated. If you have had an immediate allergic reaction, even if it was not severe, to a vaccine or injectable therapy for another disease, ask your doctor if you should get a COVID-19 vaccine."],
+      "context": [""]
+    },
+  
+    {"tag":"unqualified_vaccine_users",
+      "patterns": ["Who shouldn't get a COVID vaccine?"],
+      "responses": ["Like most vaccines, this one may not be for everyone. The CDC says people allergic to the ingredient polyethylene glycol (PEG) or polysorbate, which is similar, should not get an mRNA COVID vaccine, and anyone who has an immediate allergic reaction to the first dose should not get the second one."],
+      "context": [""]
+    },
+  
+    {"tag":"pregnant",
+      "patterns": ["If I am pregnant, can I get a COVID-19 vaccine?", "can a pregnant woman be vaccinated"],
+      "responses": ["Yes, if you are pregnant, you might choose to be vaccinated. Based on how COVID-19 vaccines work, experts think they are unlikely to pose a specific risk for people who are pregnant. However, there are currently limited data on the safety of COVID-19 vaccines in pregnant people because these vaccines have not been widely studied in pregnant people. Systems are in place to continue to monitor vaccine safety, and so far, they have not identified any specific safety concerns for pregnant people. Clinical trials to evaluate the safety and efficacy of COVID-19 vaccines in pregnant people are underway or planned."],
+      "context": [""]
+    },
+  
+    {"tag":"breastfeeding",
+      "patterns": ["If I am breastfeeding, can I get a COVID-19 vaccine?"],
+      "responses": ["There is no enough data on the safety of COVID-19 vaccines in lactating women and the effects of mRNA vaccines on breastfed infants or on milk production/excretion. mRNA vaccines are not thought to be a risk to the breastfeeding infant. People who are breastfeeding and are part of a group recommended to receive a COVID-19 vaccine, such as health care personnel, may choose to be vaccinated."],
+      "context": [""]
+    },
+  
+    {"tag":"women_infertility_side_effect",
+      "patterns": ["Can the COVID-19 Vaccine cause infertility in women?"],
+      "responses": ["There is no scientific evidence to suggest that the vaccine could cause infertility in women. In addition, infertility is not known to occur as a result of natural COVID-19 disease, further demonstrating that immune responses to the virus, whether induced by infection or a vaccine, are not a cause of infertility."],
+      "context": [""]
+    },
+  
+    {"tag":"infection_after_vaccination",
+      "patterns": ["Can I get COVID-19 if I have been vaccinated?", "Can someone who has received the vaccine die of COVID-19?"],
+      "responses": ["Although several of the most advanced vaccines have shown an efficacy above 90%, no vaccine is 100% effective. Therefore, we may expect that some people will fall sick with COVID-19 despite being vaccinated, and we cannot rule out the possibility that some may even die. But the great majority of vaccinated people will be protected against the disease or against severe forms of the disease."],
+      "context": [""]
+    },
+  
+    {"tag":"Enquiry",
+      "patterns": ["Is it better to get COVID-19 naturally than to get vaccinated against it?"],
+      "responses": ["No. Vaccines build immunity without the damaging effects that COVID-19 can have, including long-term effects and death. Allowing the disease to spread until herd immunity is reached could cause millions of deaths and even more people living with the long-term effects of the virus."],
+      "context": [""]
+    },
+  
+    {"tag":"natural_immunity",
+      "patterns": ["Is it better to get COVID-19 immunity naturally than to get vaccinated against it?"],
+      "responses": ["No. Vaccines build immunity without the damaging effects that COVID-19 can have, including long-term effects and death. Allowing the disease to spread until herd immunity is reached could cause millions of deaths and even more people living with the long-term effects of the virus."],
+      "context": [""]
+    },
+  
+    {"tag":"viral_infection_after_vaccination",
+      "patterns": ["If I have been vaccinated, can I spread the virus?"],
+      "responses": ["The clinical trials were designed to evaluate whether the vaccines prevented COVID-19 symptoms, not whether they prevented viral infection. Thus, there is no clear answer to this question yet. However, early but promising evidence shows that vaccines will also help reduce viral transmission."],
+      "context": [""]
+    },
+  
+    {"tag":"DNA_alteration_after_vaccination",
+      "patterns": ["Can the COVID vaccine alter your DNA?"],
+      "responses": ["No, the COVID vaccines do not change or interact with your DNA in any way. The mRNA never goes into the nucleus – the part of the cell that contains all of your DNA and instructions – so it cannot alter your DNA."],
+      "context": [""]
+    },
+  
+    {"tag":"herd_immunity",
+      "patterns": ["What percentage of the population needs to be vaccinated against COVID-19 for the population to have herd immunity?"],
+      "responses": ["Experts do not know what percentage of people would need to get vaccinated to achieve herd immunity to COVID-19. The percentage of people who need to have protection to achieve herd immunity varies by disease."],
+      "context": [""]
+    }
+  ]}
