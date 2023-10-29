@@ -1,5 +1,5 @@
 from tkinter import *
-from Emaj import get_response, bot_name
+from emaj import get_response, bot_name
 
 BG_GRAY = "GRAY"
 BG_COLOR = "WHITE"
