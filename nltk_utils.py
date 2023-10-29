@@ -1,7 +1,10 @@
 import numpy as np
 import nltk
 from nltk.stem.porter import PorterStemmer
-stemmer = PorterStemmer
+
+# Create an Instance of PorterStemmer
+ 
+stemmer = PorterStemmer()
 
 def tokenize(sentence):
     """
