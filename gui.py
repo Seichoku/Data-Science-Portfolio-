@@ -34,7 +34,7 @@ class ChatApplication:
 
         # text widget
         self.text_widget = Text(self.window, width=20, height=2, bg=BG_COLOR, fg=TEXT_COLOR,
-                                font=FONT, padx=5, pady=5)
+                                font=FONT, padx=5, pady=5, wrap=WORD)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
@@ -43,6 +43,14 @@ class ChatApplication:
         scrollbar.place(relheight=1, relx=0.974)
         scrollbar.configure(command=self.text_widget.yview)
 
+        # horizontal scrollbar
+        h_scrollbar = Scrollbar(self.text_widget, orient=HORIZONTAL)
+        h_scrollbar.place(relwidth=1, rely=0.974)
+        h_scrollbar.configure(command=self.text_widget.xview)
+
+         # configure text widget to use horizontal scrollbar
+        self.text_widget.configure(xscrollcommand=h_scrollbar.set)
+        
         # bottom label
         bottom_label = Label(self.window, bg=TEXT_COLOR, height=80)
         bottom_label.place(relwidth=1, rely=0.825)
